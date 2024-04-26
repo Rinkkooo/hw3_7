@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hw3_7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pink_phloyd">Pink Phloyd</string>
+    <string name="pharaoh">Pharaoh</string>
+</resources>

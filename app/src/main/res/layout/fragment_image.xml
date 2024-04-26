@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ImageFragment">
+
+    <ImageView
+        android:id="@+id/img_album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pink_phloyd"
+        android:scaleType="centerCrop"
+        />
+    
+    <TextView
+        android:id="@+id/tv_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pink_phloyd"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="36sp"
+        android:padding="12dp"
+        android:layout_marginBottom="66dp"
+        />
+
+    <TextView
+        android:id="@+id/pharaoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/pharaoh"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_album" />
+
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
